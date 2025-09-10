@@ -18,11 +18,11 @@ function App() {
       <AgeInfo age={26} name={"Fred"} />
       <DogCard />
       <ProfileCard
-        avatar="c:\\Juri_Buerkle\\57fs_TypeScript\\src\\Bild\\Avatar.jpg"
-        name="Matt Damon"
-        description="Dumbest actor of all time"/>
+        avatar="*,c:\\Juri_Buerkle\\57fs_TypeScript\\src\\Bild\\Avatar.jpg"
+        name="*Matt Damon"
+        description="*Dumbest actor of all time"/>
       <ProfileCard
-        avatar="c:\\Users\\Zbook\\Pictures\\Saved Pictures\\Batman.jpg"
+        avatar="*,c:\\Users\\Zbook\\Pictures\\Saved Pictures\\Batman.jpg"
         name="Ben Affleck"
         description="Smartest actor of all time"/>
     </div>
