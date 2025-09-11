@@ -1,17 +1,21 @@
 import './App.css'
 import AgeInfo from './components/AgeInfo/AgeInfo';
+import Counter from './components/Counter/Counter';
 import DogCard from './components/DogCard/DogCard';
 import Goodbye from './components/Goodbye/Goodbye'
 import Greeting from './components/Greeting/Greeting'
+import PersonalGreeting from './components/PersonalGreetine/PersonalGreeting';
 import ProfileCard from './components/ProfileCard/ProfileCard';
 
 function App() {
   return (
     <div>
-      {/* <p>Hello, React !</p> */}
+      
+      <PersonalGreeting />
       <Greeting />
       <Greeting />
       <Greeting />
+      <Counter />
       <Goodbye name={"Bob"} />
       <Goodbye name={"John"} />
       <AgeInfo age={23} name={"Andrey"} />
