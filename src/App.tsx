@@ -18,11 +18,11 @@ function App() {
       <AgeInfo age={26} name={"Fred"} />
       <DogCard />
       <ProfileCard
-        avatar="C:\Juri_Buerkle\57fs_TypeScript\src\Lesson_2_React\project-01\src\components\ProfileCard\Avatar.jpg"
+        avatar="C:\\Juri_Buerkle\\57fs_TypeScript\\src\\Lesson_2_React\\project-01\\src\\components\\ProfileCard\\Avatar.jpg"
         name="*Matt Damon"
         description="*Dumbest actor of all time"/>
       <ProfileCard
-        avatar="C:\\Juri_Buerkle\\57fs_TypeScript\\src\\Lesson_2_React\\project-01\\src\\Batman.jpg"
+        avatar="C:\\Users\\Zbook\\Pictures\\Saved Pictures\\Batman.jpg"
         name="Ben Affleck"
         description="Smartest actor of all time"/>
     </div>
