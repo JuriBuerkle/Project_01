@@ -22,7 +22,7 @@ function App() {
         name="*Matt Damon"
         description="*Dumbest actor of all time"/>
       <ProfileCard
-        avatar="C:\\Users\\Zbook\\Pictures\\Saved Pictures\\Batman.jpg"
+        avatar="https://assets-cache0.moviebreak.de/system/bilder/story/photo/5218446dbda00c02e2000039/Batman.jpg"
         name="Ben Affleck"
         description="Smartest actor of all time"/>
     </div>
