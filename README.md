@@ -70,3 +70,5 @@ export default tseslint.config([
 npm i - загрузить зависимость
 npm run dev - запуск
 ctr + c - остановить
+
+rfc - быстрый запуск interface
