@@ -1,0 +1,13 @@
+.container {
+  background: url("https://www.watson.ch/imgdb/0222/Qx,A,0,0,2000,1143,833,476,333,190/2238299372240088");
+  border: 2px solid lightcoral;
+  border-radius: 16px;
+  padding: 34px;
+}
+h2 {
+  color: lightcoral;
+}
+select {
+background-color: maroon;
+ 
+}
