@@ -2,11 +2,9 @@ import {useState} from 'react'
 import styles from './SpaceMissionForm.module.css';
 
 export default function SpaceMissionForm() {
-    const [AstronautName, setAstronautName] = useState("enter the Astronaut name");
-    const [PlanetName, setPlanetName] = useState("enter the Planet name");
+    const [AstronautName, setAstronautName] = useState("");
+    const [PlanetName, setPlanetName] = useState("");
     
-
-
   return (
     <div className={styles.container}>
       <h2>{AstronautName} is headed to {PlanetName}</h2>
