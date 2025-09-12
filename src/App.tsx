@@ -6,11 +6,12 @@ import Goodbye from './components/Goodbye/Goodbye'
 import Greeting from './components/Greeting/Greeting'
 import PersonalGreeting from './components/PersonalGreetine/PersonalGreeting';
 import ProfileCard from './components/ProfileCard/ProfileCard';
+import SpaceMissionForm from './components/SpaceMissionForm/SpaceMissionForm';
 
 function App() {
   return (
     <div>
-      
+      <SpaceMissionForm />
       <PersonalGreeting />
       <Greeting />
       <Greeting />
