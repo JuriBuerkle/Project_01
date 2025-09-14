@@ -4,10 +4,13 @@
   border-radius: 16px;
   padding: 34px;
 }
-h2 {
+.h2 {
   color: lightcoral;
 }
 select {
-background-color: maroon;
- 
+   background-color: maroon; 
+}
+h4 {
+  color: rgb(69, 230, 152);
+  margin-bottom: 2px;
 }

@@ -7,7 +7,7 @@ export default function SpaceMissionForm() {
     
   return (
     <div className={styles.container}>
-      <h2>{AstronautName} is headed to {PlanetName}</h2>
+      <h2 className={styles.h2}>{AstronautName} is headed to {PlanetName}</h2>
          <h4>astronaut</h4>
           <select name="austronautName" id="austronautName" onChange={(e) => setAstronautName(e.target.value)}>  <option value="who">who`s flying</option>
               <option value="Ilon Musk">Ilon Musk</option>
